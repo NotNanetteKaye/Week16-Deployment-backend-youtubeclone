@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['youtubeclone-env.eba-cdfc9hm9.us-east-1.elasticbeanstalk.com']
 
 AUTH_USER_MODEL = 'authentication.User'
 
